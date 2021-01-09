@@ -1,0 +1,202 @@
+*{
+  font-family: 'Segoe UI Semibold', sans-serif;
+}
+.star{
+  color: red;
+}
+.fa-angle-left {
+  position: absolute;
+  right: 1rem;
+  top: .7rem;
+}
+.fa-angle-left:before {
+  content: "\f107";
+}
+.layout-navbar-fixed.layout-fixed .wrapper .sidebar {
+  margin-top: 0px !important;
+}
+.layout-fixed .main-sidebar {
+  bottom: 0;
+  float: none;
+  height: 100vh;
+  right: 0;
+  position: fixed;
+  top: 59px;
+}
+.layout-navbar-fixed .wrapper .sidebar-dark-primary .brand-link:not([class*="navbar"]) {
+  margin-top: -1px;
+}
+.navbar{
+  background-color: #1f2937 !important;
+}
+.navbar .nav-link{
+  color: #a0aec0 !important;
+}
+.navbar .nav-link:hover,.navbar .nav-link:focus{
+  color: #7cc5f2 !important;
+}
+.navbar-nav li a img {
+  width: 40px;
+  height: 40px;
+  margin-top: -8px;
+}
+.navbar-nav li a .logout{
+  width: 20px !important;
+  height: 21px !important;
+}
+.dropdown-menu-lg {
+  min-width: 79px !important;
+  background-color: #1f2937 !important;
+  margin-top: 10px;
+}
+.dropdown-menu-lg a:hover{
+  background-color: #7cc5f2 !important;
+}
+.sidebar,.brand-link{
+  background-color: #1f2937 !important;
+}
+.sidebar ul li a:hover,.sidebar ul li a:focus{
+  color: #7cc5f2 !important;
+}
+.sidebar ul li a{
+  background-color: rgb(17, 24, 39);
+  color: #a0aec0 !important;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  margin-top: 0.5rem;
+  align-items: center;
+  display: flex;
+}
+.sidebar .active{
+  background-color: #7cc5f2 !important;
+  color: #1f2937 !important;
+}
+.sidebar .active:focus,.sidebar .active:hover{
+  background-color: #7cc5f2 !important;
+  color: #1f2937 !important;
+}
+.alert-success{
+  margin-left: 30%;
+  background-color: green;
+  color: white;
+  position: fixed;
+  top: -50px;
+  border-top-right-radius: 30px;
+  border-bottom-left-radius: 30px;
+  z-index: 100000000000000000000;
+}
+.alert-danger{
+  border-top-right-radius: 30px;
+  border-bottom-left-radius: 30px;
+  margin-right: 29px !important;
+  margin-left: 12px !important;
+}
+.dataTables_wrapper .dataTables_length select {
+  border-left: 4px solid #1f2937 !important;
+  border-right: 4px solid #1f2937 !important;
+}
+.dataTables_filter input{       
+  font-size: 16px;
+  color: black;
+  min-width:400px !important;
+  padding: 5px;
+  border-left: 4px solid #1f2937 !important;
+  border-right: 4px solid #1f2937 !important;
+}
+.page-item.active .page-link {
+  z-index: 3;
+  color: #ffffff;
+  background-color: #1f2937;
+  border-color: #1f2937;
+}
+.btn-secondary{
+  border-top-right-radius: 20px !important;
+  border-bottom-left-radius: 20px !important;
+}
+.add,.add .btn-secondary{
+  float: right;
+  background-color: #1f2937 !important;
+  border: 0;
+}
+.empty{
+  background-color: #1f2937;
+  border-top-right-radius: 70px;
+  border-bottom-left-radius: 70px;
+}
+.empty p{
+  color: #a0aec0;
+}
+.table {
+  text-align: center !important;
+}
+.table .bg-info{
+  background-color: #1f2937 !important; 
+}
+td .btn{
+  border-radius: 20%;
+  margin: 2px;
+}
+.row p{
+  margin-top: 150px !important;
+}
+.card-info.card-outline {
+  border-top: 3px solid #1f2937;
+  border-bottom: 3px solid #1f2937;
+}
+.card-success.card-outline {
+  border-top: 3px solid #1f2937;
+  border-bottom: 3px solid #1f2937;
+}
+.card .card-footer ul li p span{
+  float: right !important;
+}
+
+.widget-user-image img{
+  width: 331px !important;
+  height: 242px !important;
+  margin-right: 20px;
+}
+.create input,.create textarea{
+  border-top-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+  border-left: 4px solid #1f2937 !important;
+  border-right: 4px solid #1f2937 !important;
+}
+.create input:focus,.create textarea:focus{
+  border-top: 1px solid #1f2937 !important;
+  border-bottom: 1px solid #1f2937 !important;
+}
+.edit input,.edit textarea{
+  border-top-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+  border-left: 4px solid #1f2937 !important;
+  border-right: 4px solid #1f2937 !important;
+
+}
+.edit input:focus,.edit textarea:focus{
+  border-top: 1px solid #1f2937 !important;
+  border-bottom: 1px solid #1f2937 !important;
+}
+.custom-form .btn-info , .custom-form .btn-success{
+  border-top-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+  background-color: #1f2937 !important;
+  border: 0;
+  border-left: 0px solid  !important;
+  border-right: 0px solid !important;
+}
+.custom-form label{
+  font-size: 1.2rem;
+}
+
+/* .icheck-primary , .login-box-msg{
+  color: #7cc5f2 !important;
+} */
+.or{
+  color: #ffffff !important;
+}
+.login-page .login-card-body, .register-page .register-card-body{
+  background-color: #1f2937  !important;
+}
